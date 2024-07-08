@@ -1,0 +1,27 @@
+{
+    "name": "learn-php-mvc/php-mvc",
+    "description": "Belajar php mvc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "murtaki"
+        }
+    ],
+    "require": {
+        "php":">=8",
+        "php-console/php-console": "^3.1"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"^9.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "Web\\App\\PHP\\MVC\\":"app/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Web\\App\\PHP\\MVC\\":"test/"
+        }
+    }
+}
